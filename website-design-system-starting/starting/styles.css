@@ -1,0 +1,143 @@
+body {
+    width: 100%;
+    background-color: black;
+    color: aliceblue;
+}
+
+/* Header */ 
+
+nav {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+ul {
+    width: 80%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+li {
+    padding-right: 10px;
+}
+
+/* Main */
+
+main { 
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Colours */
+
+.colours {
+    border: solid 2px white;
+    width: 100%;
+}
+
+.box1, .box2, .box3, .box4, .box5, .box6{
+    display: inline-block;
+    height: 33%;
+    width: 33%;
+}
+
+#text {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#text p {
+    vertical-align: middle;
+}
+
+.box1 {
+    background-color: #6c1534;
+}
+
+.box2 {
+    background-color: #ffc0cb;
+}
+
+.box3 {
+    background-color: #008000;
+}
+
+.box4 {
+    background-color: #ffd700;
+}
+
+.box5 {
+    background-color: #ff0000;
+}
+
+.box6 {
+    background-color: #a52a2a;
+}
+
+/* Font Types*/
+
+.fonts {
+    border: solid 2px white;
+    width: 100%;
+}
+
+.fonts .bold {
+    font-weight: 700;
+}
+
+.fonts .italic {
+    font-style: italic;
+}
+
+.playfair_display {
+    font-family: "Playfair+Display", serif;
+}
+
+.merriweather {
+    font-family: "Merriweather", sans-serif;
+}
+
+.josefin_sans {
+    font-family: "Josefin+Sans", sans-serif;
+}
+
+.karla {
+    font-family: "Karla", sans-serif;
+}
+
+/* Text Styles */
+
+.text_styles {
+    border: solid 2px white;
+    width: 100%;
+}
+
+ul{
+    text-align: center;
+    list-style-position: inside;
+}
+
+li {
+    text-align: center;
+}
+
+/* Imagens*/
+
+.images {
+    border: solid 2px white;
+    width: 100%;
+}
+
+.images img {
+    width: 33%;
+    height: 33%;
+    object-fit: cover;
+}
+
+
